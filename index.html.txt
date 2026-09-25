@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الراوي للالعاب - GoldHEN Host</title>
+    <style>
+        body {
+            background-color: #0f0f11;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #1a1a1e;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(255, 215, 0, 0.15);
+            border: 1px solid #d4af37;
+        }
+        h1 {
+            color: #d4af37;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #aaaaaa;
+            font-size: 16px;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #d4af37, #aa820a);
+            color: #000000;
+            font-weight: bold;
+            padding: 15px 35px;
+            margin-top: 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            cursor: pointer;
+            border: none;
+        }
+        .btn:hover {
+            background: linear-gradient(135deg, #f3cf55, #d4af37);
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>الراوي للألعاب والحاسبات</h1>
+        <p>استضافة تفعيل ثغرة GoldHEN الخاصة بأجهزة PlayStation 4</p>
+        
+        <hr style="border: 0; height: 1px; background: #333; margin: 20px 0;">
+
+        <p>اضغط لتفعيل ثغرة GoldHEN:</p>
+        
+        <button class="btn" onclick="alert('جاري تفعيل GoldHEN... انتظر لحظات')">تفعيل GoldHEN</button>
+
+        <div class="footer">
+            تصميم وتطوير: الراوي للألعاب | جميع الحقوق محفوظة
+        </div>
+    </div>
+
+</body>
+</html>
